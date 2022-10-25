@@ -20,4 +20,4 @@ def createDFwithSpecficColumns(df,colWanted=["Distance_Miles","AVG_Pace","Date",
 
 df = createDataFrameCSV()
 df2 = createDFwithSpecficColumns(df)
-print (df2["AVG_Speed"])
+print (df2["Distance_Miles"])
